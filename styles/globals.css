@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 *{
-  background-color: F0F0F6;
+
   @apply font-serif
   
 }

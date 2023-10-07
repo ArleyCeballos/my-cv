@@ -17,7 +17,7 @@ import { IconLink } from "@/components/icon-links";
 
 const Index = () => {
   return (
-    <div className="h-full flex bg-[#F0F0F6]">
+    <div className="h-full w-full  flex bg-[#F0F0F6]">
       <aside className="bg-white p-4 flex flex-col w-[450px] gap-4 items-center" >
         <section className=" h-[300px] py-10 flex flex-col items-center text-xs">
           <div className=" h-[200px] w-[200px] mr">
@@ -57,8 +57,8 @@ const Index = () => {
 
         </section>
       </aside>
-      <main className=" flex flex-col w-full m-3 gap-4 " >
-        <section className="p-4  w-[1300px] h-[467px] items-center flex" >
+      <main className=" flex flex-col items-centerm-3 gap-4 bg-[#F0F0F6] " >
+        <section className="p-4  w-[1300px] h-[467px] items-center flex bg-white m-6" >
           <div className="flex flex-col items-center">
             <span className="px-9 py-8 font-bold text-7xl">I'm Daniela Monsalve </span>
             <div>
@@ -73,18 +73,19 @@ const Index = () => {
           </div>
 
         </section>
-        <section className="  w-[1300px] h-[600px]">
+        <section className="flex flex-col items-center  w-[1300px] h-[600px]">
           <ContainerMainText Title="My Knowledge" Description="Experienced Python Backend Developer with 3 years of expertise in designing, developing, and implementing scalable and robust backend systems. Skilled in utilizing a range of tools, frameworks, and languages to build RESTful APIs and manage data effectively. Proven track record of managing complex projects involving cross-functional teams and delivering high-quality solutions on time." />
-          <div className="grid-cols-3 grid grid-rows-2">
-            <ContainerMain Title="Web development" Description="Blog,E-Commerce" Icono={HiOutlineDesktopComputer} />
+          <div className="grid-cols-3 grid grid-rows-2 ">
+            <ContainerMain Title="Web development" Description="Blog, E-Commerce" Icono={HiOutlineDesktopComputer} />
             <ContainerMain Title="PHP" Description="Full Handle of frameworks" Icono={BsFiletypePhp} />
-            <ContainerMain Title="GIT" Description="Knoledge About Git-Flow" Icono={BsGit} />
+            <ContainerMain Title="GIT" Description="Knowledge About Git-Flow" Icono={BsGit} />
             <ContainerMain Title="UX/UI Designer" Description="Website Design" Icono={MdDesignServices} />
             <ContainerMain Title="DB" Description="Design And Settings of Data Bases" Icono={BsFillDatabaseFill} />
             <ContainerMain Title="Python" Description="Full Experience As A Python Develop" Icono={FaPython} />
           </div>
         </section>
-        <section className="font-serif  w-[1300px] h-[653px]">
+
+        <section className="flex flex-col m-6 font-serif  w-[1300px] h-[653px]">
 
           <ContainerMainText Title="Education" Description="Bachelor of Systems Engineering (expected graduation date: 2024)" />
           <ContainerEducation TitleLeft="University of Antioquia" DescriptionLeft="Systems Engineering" TitleRight="Relevant coursework" DescriptionRight="Data Structures and Algorithms
@@ -118,8 +119,8 @@ const Index = () => {
 
         </section>
       </main>
-      <aside className=" m-10 flex flex-col w-full m-3 gap-3">
-        <span className="flex justify-center font-bold text-2xl text-[#2B2B2B]" >Links</span>
+      <aside className="py-16 flex flex-col bg-white ">
+        <span className=" flex justify-center font-bold text-2xl text-[#2B2B2B]" >Links</span>
         <IconLink Icono={AiFillGithub} href="https://github.com/DanielaMGX" />
       </aside>
     </div>
