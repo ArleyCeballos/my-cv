@@ -19,13 +19,16 @@ const Index = () => {
   return (
     <div className="h-full w-full  flex bg-[#F0F0F6]">
       <aside className="bg-white p-4 flex flex-col w-[450px] gap-4 items-center" >
-        <section className=" h-[300px] py-10 flex flex-col items-center text-xs">
-          <div className=" h-[200px] w-[200px] mr">
-            <Image className='rounded-full' src='/image/Link de tu imagen en la capeta public->image(copia y pega el nombre, luego le pones la esxtension, ejemplo.jpg' height={"200"} width={"200"} alt='Profile Image' />
+        <section className="h-[350px] py-10 flex flex-col items-center text-xs">
+          <div className="h-[200px] w-[200px] rounded-full overflow-hidden">
+            <Image className='object-cover w-full h-full' src='/image/pexels-george-dolgikh-1310522.jpg' width={200} height={200} alt='Profile Image' />
           </div>
           <span className="font-bold text-xl">-Here goes your name-</span>
           <span className="text-lg text-gray-text">-Here goes your profession-</span>
         </section>
+
+
+
         <div className="flex flex-col w-[300px] h-[126px]">
           <About Title="Age:" Description="Your age" />
           <About Title="Residence:" Description="Country when you live" />
