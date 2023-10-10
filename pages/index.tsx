@@ -22,7 +22,7 @@ const Index = () => {
       <aside className="bg-white p-4 flex flex-col w-[450px] gap-4 items-center " style={{ position: 'sticky', left: '0', top: '0' }} >
         <section className="h-[350px] py-10 flex flex-col items-center text-xs">
           <div className="h-[200px] w-[200px] rounded-full overflow-hidden">
-            <Image className='object-cover w-full h-full' src='/image/pexels-george-dolgikh-1310522.jpg' width={200} height={200} alt='Profile Image' />
+            <Image className='object-cover w-full h-full' src='/image/Imagen de WhatsApp 2023-10-06 a las 23.11.00_8cd37093.jpg' width={200} height={200} alt='Profile Image' />
           </div>
           <span className="font-bold text-xl">Daniela Monsalve</span>
           <span className="text-lg text-gray-text">Back-End Developer</span>
@@ -133,11 +133,11 @@ const Index = () => {
           </section>
 
 
-         
+
         </div>
-         <footer className="py-4 text-center">
-            <p>Este es el pie de página del contenido principal.</p>
-          </footer>
+        <footer className="py-4 text-center">
+          <p>Este es el pie de página del contenido principal.</p>
+        </footer>
       </main>
 
 
